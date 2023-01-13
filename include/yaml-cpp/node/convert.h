@@ -25,14 +25,6 @@
 #include "yaml-cpp/node/type.h"
 #include "yaml-cpp/null.h"
 
-
-namespace YAML {
-class Binary;
-struct _Null;
-template <typename T>
-struct convert;
-}  // namespace YAML
-
 namespace YAML {
 namespace conversion {
 inline bool IsInfinity(const std::string& input) {
